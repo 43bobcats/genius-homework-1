@@ -7,3 +7,74 @@
     --color-secondary-dark-blue: #011F4A;
     --color-secondary-yellow: #FFD02B;
 }
+
+/* Base */
+body{
+    color: var(--color-primary-dark-blue);
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Button */
+.button {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-blue);
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+}
+
+/* links */
+.button:hover {
+    color: var(--color-primary-dark-blue);
+    background-color: transparent;
+    border: 2px solid var(--color-primary-blue);
+}
+
+.link {
+    color: var(--color-primary-dark-blue);
+}
+
+.link:hover {
+    color: var(--color-primary-blue);
+}
+
+/* Hero section */
+.hero-title {
+    color: var(--color-primary-blue);
+}
+
+/* description-section */
+.description-section {
+    
+}
+
+.description-section .accent {
+    color: var(--color-primary-blue);
+}
+
+/* Why-we-section*/
+.why-we-section {
+    
+}
+
+.why-we-section .accent {
+    color: var(--color-primary-blue);
+}
+
+/* our-procedures-section */
+.our-procedures-section {
+    
+}
+
+.our-procedures-section .accent {
+    color: var(--color-primary-blue);
+}
+
+/* contacts-section */
+.contacts-section .accent{
+    color: var(--color-primary-blue);
+}
+

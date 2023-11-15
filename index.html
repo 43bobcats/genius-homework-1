@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Beauty Zone</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
@@ -16,13 +17,13 @@
             <a class="link" href="#beauty-zone-description-section">Про нас</a>
           </li>
           <li>
-            <a href="#why-we-section">Чому ми</a>
+            <a class="link" href="#why-we-section">Чому ми</a>
           </li>
           <li>
-            <a href="#our-procedures-section">Наші процедури</a>
+            <a class="link" href="#our-procedures-section">Наші процедури</a>
           </li>
           <li>
-            <a href="#contacts-section">Контакти</a>
+            <a class="link" href="#contacts-section">Контакти</a>
           </li>
           <li>
             <a href="#">
@@ -44,12 +45,12 @@
     </header>
     <section>
       <p>Косметологічна клініка</p>
-      <h1 lang="en">Beauty Zone</h1>
-      <button type="button">Замовити дзвінок</button>
+      <h1 class="hero-title" lang="en">Beauty Zone</h1>
+      <button class="button" type="button">Замовити дзвінок</button>
       <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
     </section>
-    <section id="beauty-zone-description-section">
-      <h2>Перевтілюйтесь в <span> Beauty Zone! </span></h2>
+    <section class="description-section" id="beauty-zone-description-section">
+      <h2>Перевтілюйтесь в <span class="accent"> Beauty Zone! </span></h2>
       <p>
         Наша косметологічна клініка пропонує вам професійні послуги з догляду за
         шкірою обличчя та тіла.
@@ -61,7 +62,9 @@
       </p>
     </section>
     <section id="why-we-section">
-      <h2>Чому люди обирають нас</h2>
+      <h2 class="why-we-section">
+        Чому люди <span class="accent">обирають нас</span>
+      </h2>
       <ul>
         <li>
           <article>
@@ -93,7 +96,9 @@
       </ul>
     </section>
     <section id="our-procedures-section">
-      <h2>Наші процедури</h2>
+      <h2 class="our-procedures-section">
+        Наші <span class="accent">процедури</span>
+      </h2>
       <ul>
         <li>
           <article>
@@ -116,7 +121,9 @@
       </ul>
     </section>
     <section id="contacts-section">
-      <h2>Як нас знайти</h2>
+      <h2 class="contacts-section">
+        Як нас <span class="accent">знайти</span>
+      </h2>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2sTarasa%20Shevchenko%20Blvd%2C%205%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2sca!4v1699993030029!5m2!1sen!2sca"
         width="600"
@@ -133,10 +140,12 @@
           <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
         </a>
         <ul>
-          <li><a href="#beauty-zone-description-section">Про нас</a></li>
-          <li><a href="#why-we-section">Чому ми</a></li>
-          <li><a href="#why-we-section">Наші процедури</a></li>
-          <li><a href="#contacts-section">Контакти</a></li>
+          <li>
+            <a class="link" href="#beauty-zone-description-section">Про нас</a>
+          </li>
+          <li><a class="link" href="#why-we-section">Чому ми</a></li>
+          <li><a class="link" href="#why-we-section">Наші процедури</a></li>
+          <li><a class="link" href="#contacts-section">Контакти</a></li>
         </ul>
       </nav>
       <address>
